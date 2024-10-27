@@ -26,6 +26,6 @@ int main()
     printf("有一个字符c=%c\n",c);
     printf("a的地址是%p\n",&a);
     printf("result=%f\n",result);
-    printf("result2=%f\n",(float)data/divisor);
+    printf("result2=%-25.15f\n",(float)data/divisor);
     return 0;
 }
