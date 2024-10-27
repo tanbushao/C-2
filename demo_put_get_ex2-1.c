@@ -15,7 +15,7 @@ int main()
     getchar(); // 清除缓冲区
 
     b = a + 32;
-    printf("你输入的字母对应的小写字母是 %c\n", b);
+    printf("你输入的字母对应的小写字母是%c\n", b);
     printf("测试");
     //将字符转换为小写并输出
     scanf("%c", &a);
