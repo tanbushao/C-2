@@ -12,8 +12,7 @@ int main()
     puts("请输入一个字符");
     c = getchar();
     puts("你输入的字符是");
-    getchar(c);
-
+    putchar(c);
 
     return 0;
 }
